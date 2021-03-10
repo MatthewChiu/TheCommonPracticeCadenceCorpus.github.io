@@ -1,0 +1,15 @@
+
+
+body {
+    font-family: Canela, Alegreya;
+}
+
+h1.header {
+    margin-bottom: 2px;
+}
+
+a.navItem {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 20px 2px 2px;
+}
