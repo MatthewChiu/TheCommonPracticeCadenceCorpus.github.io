@@ -9,6 +9,7 @@ body {
 }
 
 h1.header {
+    font-size: 30pt;
     margin: 0;
     /* margin-bottom: 2px; */
     /* background-color:lightslategray; */
@@ -17,23 +18,35 @@ h1.header {
 
 .allText {
     background-color:white;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 0;
     margin-right: 10px;
     box-shadow: 1px 2px 20px rgba(0,0,0,.5);
 }
 
-a.navItem {
-    display: inline-block;
-    text-align: center;
-    padding: 2px 20px 2px 2px;
+.gradient-border{
+    background-image: linear-gradient(45deg, #ff8a00, #e52e71);
+    border-radius: 16px;
+    padding: 10px;
 }
 
+a.navItem {
+    font-size: large;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 40px 2px 20px;
+}
 
+.details {
+    margin-top: 0px;
+}
 /* .h1 {
     margin-bottom: -6;
 } */
 
 h3 {
+    text-decoration: underline;
+    font-size: 20pt;
     margin-bottom: 0px;
 }
 
